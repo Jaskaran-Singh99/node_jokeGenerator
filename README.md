@@ -1,8 +1,8 @@
 
-# Node js CRUD application/Task Manager
+# Node js  application/Jokes generator
 
-This is a basic nodejs crud application where the user
-can create, update or delete data 
+Jokes are fetched using api and everytime a random joke is shown to the user, this was the first time working with api's and  learned a lot of new things such
+as getting data in chunks , understanding more about async await and api's etc overall it was a great learning experience
 
 
 ## Tech Stack
@@ -23,10 +23,10 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  nodemon index.js
 ```
 
-Go to http://localhost:4000/ on your device.
-(Use Postman or thunderclient to post or delete the data)
+Go to http://localhost:3000/jokes on your device.
+
 
 
